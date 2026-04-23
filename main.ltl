@@ -1,0 +1,15 @@
+// ltl-url-shorten/main.ltl
+//
+// Deterministic URL shortener with collision-free base62 hashing.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-url-shorten v0.1.0")
+    io::println("Deterministic URL shortener with collision-free base62 hashing.")
+    0
+}
